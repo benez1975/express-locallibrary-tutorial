@@ -9,9 +9,9 @@ var index = require('./routes/index');
 var users = require('./routes/users');
 var catalog = require('./routes/catalog');  //Import routes for "catalog" area of site
 
-var msg = "NODE_ENV: "+ process.env.NODE_ENV ;
+var msg = "NODE_ENV: "+ process.env.NODE_ENV;
 console.log(msg);
-var msg = "MONGODB_URI: "+ process.env.MONGODB_URI ;
+var msg = "MONGODB_URI: "+ process.env.MONGODB_URI;
 console.log(msg);
 
 
